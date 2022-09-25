@@ -11,7 +11,7 @@ let onTick = (days, hours, minutes, seconds) => {
 
 onStart();
 
-setInterval(function(){
+setInterval(function() {
     let targetDate = new Date(new Date().getFullYear() +1, 0, 1);
     let currentYear = new Date();
 
